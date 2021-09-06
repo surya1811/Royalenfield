@@ -1,0 +1,142 @@
+.grid
+	{
+	display:grid;
+	grid:auto auto auto auto auto / auto  ;
+	grid-gap:10px;
+	background-color:#FF1493;
+	padding:10px 10px ;
+	overflow:hidden;
+	}
+
+.item
+	{
+	background-color:#88CDF6;
+	text-align:center;
+	padding:5px 5px;
+	overflow:hidden;
+	}
+
+img
+	{
+	float:left;
+	width:400px;
+	}
+
+.row1
+	{ 
+            	margin: 0px -10px; 
+            	padding: 8px; 
+        	} 
+           
+.row1> .column1
+	 { 
+            	padding: 6px; 
+        	} 
+           
+.column1 	
+	{ 
+            	float: right; 
+	width:60%; 
+        	} 
+           
+.row1:after	
+	{ 
+            	content: ""; 
+            	display: table; 
+            	clear: both; 
+        	} 	
+body
+	{
+	background-color:#A1C4FD;
+	}
+
+.flex-container
+	{
+	display:flex;
+	flex-direction:row;
+	width:820px;
+	height:60px;
+	background-color:#3D1E6D;
+	margin:0px 0px;
+	align-items: center;
+ 	overflow:hidden;
+	}
+
+.flex-item
+	{
+	display:inline-block;
+	height:30px;
+	background-color:9370DB;
+	margin:5px 10px;
+	padding:10px 35px ;
+	width:150px;
+	overflow: hidden;
+	justify-content:center;
+	align-items: center;
+	}
+
+.nav 
+	{
+	//overflow: hidden;
+	background-color:WHITE;
+	display: inline-block;
+	text-align: center;
+  	}
+
+.nav a 
+	{
+  	float: left;
+  	display:table;
+	display: inline-block;
+    	text-align: center;
+   	text-decoration: none;overflow:hidden;
+	}
+
+.nav a:hover 
+	{
+  	background-color:FFFFE0;
+  	color: black;
+	}
+
+.hero
+	{
+	background:url("mybyk1.JPG") no-repeat  center;
+	background-size:cover;
+	height:500px;
+	}
+.hero-text
+	{
+	text-align:right;
+	position:absolute;
+	top:55%;
+	left:65%;
+	transform:translate(-50%,-50%);
+	color: pink;
+	overflow:hidden;
+	}
+         
+
+
+div.ani
+	{
+	width:870px;
+	height:500px;
+	position:relative;
+	background-image:url("ancient bullet.jpg");
+	background-size:cover;
+	animation-name:example;
+	animation-duration:18s;
+	animation-iteration-count:INFINITE;
+	overflow:hidden;
+	transition-timing-function: ease-in-out;
+	transition-delay:3s
+	}
+@keyframes example
+	{
+	0% {background-image:url("trans1.jpg");}
+	20% {background-image:url("trans2.jpg");}
+	40% {background-image:url("royal-enfield-classic-350-signals.jpg");}
+	60% {background-image:url("trans3.jpg");}
+	80% {background-image:url("trans4.jpg");}
+	100% {background-image:url("interceptor.webp");}
+	}

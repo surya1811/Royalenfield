@@ -1,0 +1,95 @@
+<html>
+<head>
+<style >
+table
+	 { 
+	text-align:center;
+	font-size:40;
+	color:violetred;
+	font-family:sans-serif;
+	}
+body
+	{
+	background-color:fdd3e4;
+	opacity:0.9;
+	background-image:url("manit logo.png");
+	background-repeat:no-repeat;
+	background-position:right top;
+	background-size: 150px 150px;
+	}
+ #textbox { height:40px; font-size:25pt;width:700px; } 
+ #problems{ height:80px; font-size:25pt;width:700px; } 
+</style>
+<title>
+Contact info
+</title>
+</head>
+<body>
+	<div style="color:indigo;text-align:center;font-family:times new roman;font-size:40px;">
+		<h1>
+		Contact Form
+		</h1>
+	</div>
+
+	<table  width=100% cell spacing=1>
+		<form name="Contact Form" action="action.page.php" >
+		<tr>
+			<td>
+				<label for="name">Enter your name:
+			</td>
+			<td>
+				<input type="text" id="textbox" name="urname" " maxlength="35" autofocus required >
+			</td>
+		</tr>
+		<br></label>
+
+		<tr>
+			<td>
+				<label for="email">Enter your Email:
+			</td>
+			<td>
+				<input type="email" name="urEmail" id="textbox"  maxlength="35" required>
+			</td>
+		</tr>
+		<br></label>
+
+		<tr>
+			<td>
+				<label for="Mobile Number">Contact Number:
+			</td>
+			<td>
+				<input type="number" name=mobile number" id="textbox"  maxlength="12" required>
+			</td>
+		</tr>
+		<br></label>
+
+		<tr>
+			<td>
+			<label for="Alternate Mobile Number">Alternate Number:
+			</td>
+			<td>
+				<input type="number" name=alternate number" id="textbox"  maxlength="12" required>
+			</td>
+		</tr>
+		<br></label>
+		<tr>
+			<td>
+				<label for="name">Problems/Questions:
+			</td>
+			<td>
+				<input type="text" id="problems" name="problems"  maxlength="125" autofocus required >
+			</td>
+		</tr>
+		<br></label>
+		<tr>
+			<label for="submit">
+				<td colspan="2">
+					<input type="submit" value="submit" id="submit" >
+				</td>
+		</tr>
+		</label>
+
+	</table>
+</form>
+</body>
+</html>
